@@ -69,8 +69,6 @@ namespace ContainerTweaks
                 else if (__instance.m_DisplayName == "Trash Can") __instance.m_CapacityKG = Settings.settings.trashCanCapacity;
                 else if (__instance.m_DisplayName == "Trunk") __instance.m_CapacityKG = Settings.settings.trunkCapacity;
                 else if (__instance.m_DisplayName == "Washer") __instance.m_CapacityKG = Settings.settings.washerCapacity;
-                
-                //else __instance.m_CapacityKG = __instance.m_CapacityKG* 2;
             }
         }
     }
