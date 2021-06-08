@@ -25,7 +25,7 @@ Delete ```ContainerTweaks.dll``` and ```ContainerTweaks.json``` file from your M
 3. Scroll across to the ```Container Tweaks``` menu
 4. Use the sliders to set the capacity for each type of container
 5. Click ```CONFIRM``` to apply your changes (or ```BACK``` to exit without applying changes)
-6. You cave to change scene in order for the settings to be applied (e.g. go in/outside)
+6. You have to change scene in order for the settings to be applied (e.g. go in/outside)
 
 ## Feedback, Questions & Troubleshooting
 * I am active on [The Long Dark Modding](https://discord.gg/QvFE7VV4WZ) Discord server
