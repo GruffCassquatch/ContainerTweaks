@@ -191,7 +191,7 @@ namespace ContainerTweaks
 
         [Name("Tool Cabinet Drawer (Large)")]
         [Description("Default is 10 kg")]
-        [Slider(0f, 50f, 51, NumberFormat = "{0:0.##} kg")]
+        [Slider(0f, 100f, 51, NumberFormat = "{0:0.##} kg")]
         public float toolCabinetDrawerLgeCapacity = 10;
 
         [Name("Trash Can")]
@@ -199,7 +199,12 @@ namespace ContainerTweaks
         [Slider(0f, 500f, 501, NumberFormat = "{0:0.##} kg")]
         public float trashCanCapacity = 15;
 
-        [Name("Trunk")]
+        [Name("Trunk (Car)")]
+        [Description("Default is 40 kg")]
+        [Slider(0f, 500f, 501, NumberFormat = "{0:0.##} kg")]
+        public float carTrunkCapacity = 40;
+
+        [Name("Trunk (Wooden Box)")]
         [Description("Default is 40 kg")]
         [Slider(0f, 500f, 501, NumberFormat = "{0:0.##} kg")]
         public float trunkCapacity = 40;
