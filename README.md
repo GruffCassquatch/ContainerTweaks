@@ -3,7 +3,9 @@ A mod for The Long Dark.
 
 Allows you to change the capacity of containers. Separate settings for each type of container for granular control. 
 
-If you just want UNLIMITED container space you can find that mod here: [LimitlessContainerSpace](https://github.com/ds5678/LimitlessContainerSpace)
+**v1.0 MIGHT ONLY WORK ON ENGLISH-LANGUAGE SETTINGS, I am working on an update** 
+
+** If you just want UNLIMITED container space you can find that mod here: [LimitlessContainerSpace](https://github.com/ds5678/LimitlessContainerSpace) **
 
 ## Installation:  
 1. Download ```ContainerTweaks.dll``` from [releases](https://github.com/GruffCassquatch/ContainerTweaks/releases)  
@@ -23,7 +25,7 @@ Delete ```ContainerTweaks.dll``` and ```ContainerTweaks.json``` file from your M
 3. Scroll across to the ```Container Tweaks``` menu
 4. Use the sliders to set the capacity for each type of container
 5. Click ```CONFIRM``` to apply your changes (or ```BACK``` to exit without applying changes)
-6. You cave to change scene in order for the settings to be applied (e.g. go in/outside)
+6. You have to change scene in order for the settings to be applied (e.g. go in/outside)
 
 ## Feedback, Questions & Troubleshooting
 * I am active on [The Long Dark Modding](https://discord.gg/QvFE7VV4WZ) Discord server
