@@ -3,8 +3,6 @@ A mod for The Long Dark.
 
 Allows you to change the capacity of containers. Separate settings for each type of container for granular control. 
 
-**v1.0 MIGHT ONLY WORK ON ENGLISH-LANGUAGE SETTINGS, I am working on an update** 
-
 ** If you just want UNLIMITED container space you can find that mod here: [LimitlessContainerSpace](https://github.com/ds5678/LimitlessContainerSpace) **
 
 ## Installation:  
