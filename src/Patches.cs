@@ -36,7 +36,7 @@ namespace ContainerTweaks
                 // Hidden Cache
                 else if (__instance.name.Contains("CONTAINER_CacheStoreCommon")) __instance.m_CapacityKG = Settings.settings.hiddenCacheCapacity;
 
-                //Plastic Container 1
+                // Plastic Container 1
                 else if (__instance.name.Contains("CONTAINER_CacheStoreRare")) __instance.m_CapacityKG = Settings.settings.plasticContainerCapacity;
 
                 // Coal Bin
@@ -115,6 +115,9 @@ namespace ContainerTweaks
 
                 // Side Table Drawer
                 else if (__instance.name.Contains("OBJ_EndTableDrawer")) __instance.m_CapacityKG = Settings.settings.endTableDrawerCapacity;
+
+                // Cupboard
+                else if (__instance.name.Contains("OBJ_CupboardDoor")) __instance.m_CapacityKG = Settings.settings.cupboardCapacity;
 
                 // Fishing Hut Cupboard
                 else if (__instance.name.Contains("OBJ_FishingCabinCupboardDoor")) __instance.m_CapacityKG = Settings.settings.cupboardCapacity;

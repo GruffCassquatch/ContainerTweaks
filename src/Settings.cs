@@ -81,6 +81,7 @@ namespace ContainerTweaks
 
         [Name("Fishing Hut Drawer")]
         [Description("Default is 10 kg")]
+
         [Slider(0f, 50f, 51, NumberFormat = "{0:0.##} kg")]
         public float fishingHutDrawerCapacity = 10;
 
