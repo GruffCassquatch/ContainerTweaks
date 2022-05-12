@@ -100,6 +100,11 @@ namespace ContainerTweaks
         [Slider(0f, 25f, 26, NumberFormat = "{0:0.##} kg")]
         public float gloveBoxCapacity = 5;
 
+        [Name("Gun Locker")]
+        [Description("Default is 30 kg")]
+        [Slider(0f, 100f, 101, NumberFormat = "{0:0.##} kg")]
+        public float gunLockerCapacity = 5;
+
         [Name("Hatch")]
         [Description("Default is 40 kg")]
         [Slider(0f, 250f, 251, NumberFormat = "{0:0.##} kg")]
@@ -110,10 +115,20 @@ namespace ContainerTweaks
         [Slider(0f, 50f, 51, NumberFormat = "{0:0.##} kg")]
         public float hiddenCacheCapacity = 15;
 
+        [Name("Infirmary Drawer")]
+        [Description("Default is 10 kg")]
+        [Slider(0f, 50f, 51, NumberFormat = "{0:0.##} kg")]
+        public float infirmaryDrawerCapacity = 10;
+
         [Name("Kitchen Cabinet")]
         [Description("Default is 15 kg")]
         [Slider(0f, 50f, 51, NumberFormat = "{0:0.##} kg")]
         public float kitchenCabinetCapacity = 15;
+
+        [Name("Kitchen Drawer")]
+        [Description("Default is 10 kg")]
+        [Slider(0f, 50f, 51, NumberFormat = "{0:0.##} kg")]
+        public float kitchenDrawerCapacity = 10;
 
         [Name("Lock Box")]
         [Description("Default is 10 kg")]
@@ -209,6 +224,11 @@ namespace ContainerTweaks
         [Description("Default is 40 kg")]
         [Slider(0f, 500f, 501, NumberFormat = "{0:0.##} kg")]
         public float trunkCapacity = 40;
+
+        [Name("Warden Desk Drawer")]
+        [Description("Default is 10 kg")]
+        [Slider(0f, 50f, 51, NumberFormat = "{0:0.##} kg")]
+        public float wardenDeskDrawerCapacity = 10;
 
         [Name("Washer")]
         [Description("Default is 30 kg")]

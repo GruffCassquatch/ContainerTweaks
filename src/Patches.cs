@@ -54,6 +54,9 @@ namespace ContainerTweaks
                 // First Aid Kit
                 else if (__instance.name.Contains("CONTAINER_FirstAidKit")) __instance.m_CapacityKG = Settings.settings.firstAidCapacity;
 
+                // Gun Locker
+                else if (__instance.name.Contains("CONTAINER_StorageGunLocker")) __instance.m_CapacityKG = Settings.settings.gunLockerCapacity;
+
                 // Supply Bin
                 else if (__instance.name.Contains("CONTAINER_ForestryCrate")) __instance.m_CapacityKG = Settings.settings.supplyBinCapacity;
 
@@ -131,11 +134,17 @@ namespace ContainerTweaks
                 // Freezer
                 else if (__instance.name.Contains("OBJ_FridgeTopDoor")) __instance.m_CapacityKG = Settings.settings.freezerCapacity;
 
+                // Infirmary Drawers
+                else if (__instance.name.Contains("OBJ_InfirmaryDrawer")) __instance.m_CapacityKG = Settings.settings.infirmaryDrawerCapacity;
+
                 // Oven
                 else if (__instance.name.Contains("OBJ_GasOvenDoor")) __instance.m_CapacityKG = Settings.settings.ovenCapacity;
 
                 // Kitchen Cabinet
                 else if (__instance.name.Contains("OBJ_KitchenCabinetDoor")) __instance.m_CapacityKG = Settings.settings.kitchenCabinetCapacity;
+
+                // Kitchen Drawer
+                else if (__instance.name.Contains("OBJ_KitchenDrawer")) __instance.m_CapacityKG = Settings.settings.kitchenDrawerCapacity;
 
                 // Metal Desk Drawer Large
                 else if (__instance.name.Contains("OBJ_MetalDeskDrawer1"))  __instance.m_CapacityKG = Settings.settings.deskDrawerLgeCapacity;
@@ -166,6 +175,9 @@ namespace ContainerTweaks
                     if (__instance.name.Contains("OBJ_ToolCabinetDrawerE")) __instance.m_CapacityKG = Settings.settings.toolCabinetDrawerLgeCapacity;
                     else __instance.m_CapacityKG = Settings.settings.toolCabinetDrawerSmlCapacity;
                 }
+
+                // Warden Desk
+                else if (__instance.name.Contains("OBJ_WardenDesk")) __instance.m_CapacityKG = Settings.settings.wardenDeskDrawerCapacity;
 
                 // Wood Desk Drawer
                 else if (__instance.name.Contains("OBJ_TrailerInteriorDeskDrawerLg_Prefab")) __instance.m_CapacityKG = Settings.settings.woodDeskDrawerCapacity;
