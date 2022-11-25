@@ -1,5 +1,6 @@
 # ContainerTweaks
 A mod for The Long Dark. 
+FOR GAME VERSION 2.00 / 2.02 (**PRE TALES FROM THE FAR TERRITORY**)    
 
 Allows you to change the capacity of containers. Separate settings for each type of container for granular control. 
 
