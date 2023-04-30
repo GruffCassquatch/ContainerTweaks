@@ -5,6 +5,7 @@ namespace ContainerTweaks
 {
     public class Implementation : MelonMod
     {
+        [Obsolete]
         public override void OnApplicationStart()
         {
             base.OnApplicationStart();
