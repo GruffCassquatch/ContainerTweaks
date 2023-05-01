@@ -1,10 +1,13 @@
 # ContainerTweaks
 A mod for The Long Dark. 
-FOR GAME VERSION 2.00 / 2.02 (**PRE TALES FROM THE FAR TERRITORY**)    
+CHOOSE THE CORRECT MOD VERSION TO MATCH YOUR GAME VERSION      
+
+UPDATED FOR 2.12 / TFTFT BY PHAEDRUS   
 
 Allows you to change the capacity of containers. Separate settings for each type of container for granular control. 
 
 ** If you just want UNLIMITED container space you can find that mod here: [LimitlessContainerSpace](https://github.com/ds5678/LimitlessContainerSpace) **
+    
 
 ## Installation:  
 1. Download ```ContainerTweaks.dll``` from [releases](https://github.com/GruffCassquatch/ContainerTweaks/releases)  
